@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 1. Clone the repository to your local machine using the following command:
    ```
-   git clone git@github.com:nefariousjosiah/Network-Scanner-GUI-CVSS-.git
+   git@github.com:nefariousjosiah/Network-Scanner-GUI.git
    ```
 2. Navigate into the project directory
 3. Install the required dependencies
