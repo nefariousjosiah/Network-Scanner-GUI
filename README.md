@@ -1,5 +1,8 @@
 # Network Scanner and Vulnerability Detector
 
+![image](https://github.com/user-attachments/assets/b4c3df6f-8509-47d5-90c0-305f6b0d1293)
+
+
 This project is a network scanning and vulnerability detection tool built using Python, utilizing `scapy` for network scanning and `socket` for open port checking. It features a graphical user interface (GUI) made with `CustomTkinter` for ease of use. The tool can scan a specified network for devices, check for open ports, and provide basic vulnerability assessments based on common open ports.
 
 ## Features
