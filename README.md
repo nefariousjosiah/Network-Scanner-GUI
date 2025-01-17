@@ -39,4 +39,34 @@ pip install -r requirements.txt
    ```
 4. Run the Script.py using python
 
+## Usage
+
+1. **Scan a Custom Network**:
+   - Enter a network range in the format `192.168.x.x/24` (e.g., `192.168.1.0/24`) in the provided input field.
+   - Click the "Scan" button to start scanning.
+
+2. **Auto Scan Local Network**:
+   - If you prefer, you can click the "Scan Local Network" button to automatically scan your local network.
+
+3. **Scan Results**:
+   - The results will display the IP and MAC addresses of the devices found on the network.
+   - Open ports and any potential vulnerabilities will also be shown.
+   - Once the scan completes, a security rating (1-10) for the network is provided.
+
+## Example Output
+
+After completing the scan, the tool will display:
+
+```
+
+Scanning the network: 192.168.1.0/24...
+
+Devices found on the network: IP: 192.168.1.10, MAC: 00:1A:2B:3C:4D:5E IP: 192.168.1.11, MAC: 00:1A:2B:3C:4D:5F
+
+Scanning open ports on 192.168.1.10... Open ports on 192.168.1.10: [22, 80]
+
+Potential vulnerability: SSH port 22 is open! Potential vulnerability: HTTP port is open. Ensure the server is secured.
+
+Security Rating: 7/10
+```
    
